@@ -1,4 +1,4 @@
-SQL Script 
+
 SELECT DISTINCT (director.dir_id), director.dir_fname, director.dir_lname, movie_genres.gen_id, genres.gen_title, MAX(num_o_ratings)
        
 FROM director 
